@@ -1,0 +1,60 @@
+/*css*/
+body{
+  font-family: 'Antic Slab', serif;
+}
+
+header{
+  color: #FFFFFF;
+  font-size: 50px;
+  flex-basis: 100%;
+  text-align: center;
+  background-color: #282828;
+}
+
+#basics p{
+  color: #39a096;
+}
+
+.container{
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: center;
+}
+
+#basics p em{
+  color: #95a5a4;
+  font-style: normal;
+
+}
+
+#story{
+  display: flex;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+#story p{
+  color: #95a5a4;
+  border-left: 1px solid #95a5a4;
+  padding-left: 30px;
+  flex-basis: 50%;
+}
+ #story h2{
+   flex-basis: 100%;
+ }
+
+#basics{
+  flex-grow: 1;
+  margin-right: 60px;
+
+
+}
+
+#avatar{
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  flex-basis: 10%;
+}
